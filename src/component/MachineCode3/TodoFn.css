@@ -1,0 +1,72 @@
+.spanUpper::first-letter{
+    text-transform: uppercase;
+}
+
+.paginateBtn button{
+    height:35px;
+    width:70px;
+
+}
+
+.previousBtn{
+    background-color: black;
+color: azure;
+font-weight: bold;
+}
+
+.currentBtn{
+    background-color: black;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.nextBtn{
+    background-color: black;
+    color: azure;
+    font-weight: bold;
+
+}
+
+.boxAnimate1 {
+    display: inline-block;
+    width: 260px;
+    height: 50px;
+    position: relative; /* Ensures that child elements are positioned relative to this container */
+}
+
+.boxInput {
+    height: 40px;
+    width: 220px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative; 
+    z-index: 1; /* Set lower z-index for input */
+    background-color: honeydew;
+}
+
+label {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    transition: all 0.2s ease; /* Add transition for smooth effect */
+    z-index: 5; 
+}
+
+.boxInput:focus + label,
+.boxInput:valid + label {
+    color: rgb(76, 76, 34);
+    transform: translate(-15px, -30px) scale(0.88); /* Adjust transform to move the label up */
+    z-index: 1111;/*not working*/
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.sortContainer{
+    height: 40;
+    margin-bottom: 30;
+    display: flex;
+    justify-content: space-between;
+}

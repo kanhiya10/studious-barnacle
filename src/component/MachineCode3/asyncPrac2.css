@@ -1,0 +1,13 @@
+.outerContainer{
+    border:3px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+
+}
+
+.outerContainer:focus{
+    border:5px solid lightcoral;
+}

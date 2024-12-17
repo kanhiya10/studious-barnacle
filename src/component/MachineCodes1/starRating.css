@@ -1,0 +1,27 @@
+.starContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    background: linear-gradient(to right, rgba(95, 81, 81, 0.8), rgba(35, 25, 25, 0.8));    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 10px;
+}
+
+.starContainer span {
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+    margin: 0 5px;
+    font-size: 36px;
+}
+
+.starContainer span:hover {
+    transform: scale(1.2);
+}
+
+.starContainer span:hover ~ span {
+    color: black; /* Change color of stars after the hovered star */
+}

@@ -1,0 +1,22 @@
+ .btn1{
+cursor: pointer;
+background-color: #D8A7D9;
+height: 50px;
+width: 120px;
+margin-left: 40px;
+border-radius: 5px;
+font-size: large;
+ }
+
+.btn2{
+    cursor: pointer;
+    background-color: #D8A7D9;
+    height: 50px;
+    width: 120px;
+    margin-right: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: large;
+ }

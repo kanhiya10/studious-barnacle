@@ -1,0 +1,16 @@
+.searchbar input{
+    height: 35px;
+    width: 220px;
+    box-shadow: 5px 8px 5px 5px lavender;
+   
+}
+
+.searchbar button{
+    height: 40px;
+    cursor:pointer;
+    border-radius: 15%;
+    border-color: rgb(244, 197, 8);
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+}

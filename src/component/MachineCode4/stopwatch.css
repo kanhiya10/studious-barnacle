@@ -1,0 +1,13 @@
+.start{
+    height:30px;
+    width:100px;
+    background-color:beige;
+    color:black
+}
+
+.stop{
+    height:30px;
+    width:100px;
+    background-color:rgb(250, 213, 210);
+    color:black
+}

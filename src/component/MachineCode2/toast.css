@@ -1,0 +1,27 @@
+.toastStyle{
+    cursor: pointer;
+    animation: slide 1s 1;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+}
+
+.toast-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toast-button:hover {
+    background-color: lightgray;
+}

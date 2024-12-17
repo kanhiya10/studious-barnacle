@@ -1,0 +1,90 @@
+/* Container for the entire app */
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+/* Title of the app */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+}
+
+/* List of players */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Specific button styles */
+button.add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.remove {
+    background-color: #f44336;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Stats section */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.team-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Optional: Adding spacing between the player list and stats */
+.team-stats p {
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+
+
+.structure{
+    /* height:250px; */
+    /* border: 1px solid pink; */
+    width:600px;
+    display: flex;
+
+}
+.structureVertical{
+    /* height: 250px; */
+    width: 10px;
+    background-color: gray;
+}
+.structureHorizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    /* background-color: bisque; */
+    height: 80%;
+    width: 400px;
+    /* margin-top: 55px; */
+}
+.structureLine{
+    height: 2px;
+    width: 200px;
+    /* background-color: gray; */
+   
+}
+.structureLineBar{
+    height: 2px;
+    width: 110px;
+    background-color: gray;
+   
+}
+.structureLineNumber{
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+    right: 20px;
+    bottom:95px;
+}
+.lineText {
+    position: relative;
+    top:-40px;
+    right: -90px;
+    text-align: end;
+    font-weight: 300;
+  }
+  

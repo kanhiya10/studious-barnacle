@@ -1,0 +1,23 @@
+[
+    {
+        "label":"Personal Info",
+        "action":"PersonalInfo",
+        "id":0
+    },
+    {
+        "label":"Account Info",
+        "action":"AccountInfo",
+        "id":1
+    },
+    {
+         "label":"Payment",
+        "action":"PaymentInfo",
+        "id":2
+    },
+    {
+         "label":"Confirmation",
+        "action":"ConfirmationInfo",
+        "id":3
+    }
+ 
+]

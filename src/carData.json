@@ -1,0 +1,51 @@
+[
+  {
+    "carId": 1,
+    "carName": "Volvo",
+    "carModel": "XC90",
+    "carPrice": 50000,
+    "carPic":  "https://imgd.aeplcdn.com/370x208/n/cw/ec/131131/xc60-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+  },
+  {
+    "carId": 2,
+    "carName": "Saab",
+    "carModel": "9-3",
+    "carPrice": 35000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/153827/new-santa-fe-exterior-left-front-three-quarter.jpeg?isig=0&q=80"
+  },
+  {
+    "carId": 3,
+    "carName": "Mercedes",
+    "carModel": "C-Class",
+    "carPrice": 60000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/149525/a-class-limousine-exterior-right-front-three-quarter-6.jpeg?isig=0&q=80"
+  },
+  {
+    "carId": 4,
+    "carName": "Audi",
+    "carModel": "A4",
+    "carPrice": 55000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/51909/a4-exterior-right-front-three-quarter-2.jpeg?q=80"
+  },
+  {
+    "carId": 5,
+    "carName": "BMW",
+    "carModel": "X5",
+    "carPrice": 70000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/132513/7-series-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+  },
+  {
+    "carId": 6,
+    "carName": "Toyota",
+    "carModel": "Corolla",
+    "carPrice": 25000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/132427/taisor-exterior-right-front-three-quarter-2.png?isig=0&q=80"
+  },
+  {
+    "carId": 7,
+    "carName": "Honda",
+    "carModel": "Civic",
+    "carPrice": 27000,
+    "carPic":"https://imgd.aeplcdn.com/370x208/n/cw/ec/142515/elevate-exterior-right-front-three-quarter-21.jpeg?isig=0&q=80"
+  }
+]

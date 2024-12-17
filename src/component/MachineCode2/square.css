@@ -1,0 +1,17 @@
+/* square.css */
+.square {
+    width: 60px; /* Same size as defined in ticTac.css */
+    height: 60px; /* Same size as defined in ticTac.css */
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
